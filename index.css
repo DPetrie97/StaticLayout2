@@ -1,0 +1,116 @@
+body{
+    margin: 8px;
+    background-color:black;
+    height: 0em;
+}
+.wrapper{
+    object-fit: cover;
+    overflow: hidden;
+}
+.imgGradient{
+    background-image: linear-gradient(to top, rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%),radial-gradient(50% 100%,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%);
+    position: absolute;
+    top: 0px;
+    bottom: -45em;
+    right: 0em;
+    left: 0em;
+    object-fit: cover;
+}
+.freeTrialSection{
+    margin-left: -1px;
+    margin-right: -2px;
+    overflow: hidden;
+}
+
+.backgroundImg{
+    object-fit: cover;
+    height: 50em;
+    width: 75em;
+}
+
+.headerNetflixLogo{
+    position: relative;
+    bottom: 45em;
+}
+#logo{
+    position: relative;
+    width: 8em;
+    height: 3em;
+    bottom: 3em;
+    left: 2em;
+}
+
+.signInButton{
+position: relative;
+bottom: 3em;
+border: thin black 1px;
+background-color: red;
+float: right;
+font-weight: 400;
+padding: 7px 17px;
+color: white;
+border-radius: 5px;
+right: 10px;
+}
+
+.frontPageText{
+    text-align: center;
+    position: relative;
+    bottom: 28em;
+    font-size: x-large;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    margin: 3em 3em 3em 3em;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+#email-address{
+    position: relative;
+    height: 3em;
+    width: 37em;
+    left: 10em;
+}
+.freeButton{
+    background-color: red;
+    color: white;
+    position: relative;
+    top: 5em;
+    height: 3.6em;
+    width: 16em;
+    right: 16em;
+}
+
+hr{
+    position: relative;
+    bottom: 30em;
+    color: black;
+}
+
+.tvSection{
+    position: relative;
+    margin: 5em 5em 5em 5em;
+    bottom: 25em;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    height: 0em;
+}
+#coolTv{
+    position: relative;
+    right: 1em;
+    bottom: 1em;
+}
+
+.coolAnimation{
+    position: relative;
+    bottom: 26.5em;
+    height: 24.3em;
+    width: 24em;
+    left: -0.6em;
+}
